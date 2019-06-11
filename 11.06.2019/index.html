@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Samir</title>
+    <meta name="keywords" content="şəkər tozu, pesok, şəkər çuğunduru" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <a href="checkout.html" type="button" id="basket" class="btn btn-primary">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="badge badge-light">0</span>
+          </a>
+        </form>
+      </div>
+    </nav>
+    <section id="top">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Top section</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="products">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/p1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Image 1</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  data-proid="10001"
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  >Add to basket</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/p2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Image 2</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  data-proid="10002"
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  >Add to basket</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/p3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Image 3</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  data-proid="10003"
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  >Add to basket</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/p4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Image 4</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  data-proid="10004"
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  >Add to basket</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/p5.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Image 5</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  data-proid="10005"
+                  href="#"
+                  class="btn btn-primary add-to-cart"
+                  >Add to basket</a
+                >
+                <!-- expando attribute - user custom attribute -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <aside id="color-aside">
+      <input
+        type="text"
+        class="form-control my-5 color-input"
+        placeholder="#a52a2a"
+      />
+      <button class="btn btn-outline-dark btn-block change-color">
+        Update color
+      </button>
+      <button class="btn btn-danger btn-block reset-color">Reset color</button>
+
+      <a class="rotate">
+        <i class="fas fa-cog"></i>
+      </a>
+    </aside>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
