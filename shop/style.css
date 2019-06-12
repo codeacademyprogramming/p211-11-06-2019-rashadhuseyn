@@ -1,0 +1,20 @@
+*{
+text-decoration: none;
+box-sizing: border-box;
+}
+img{
+width: 70%;
+height: 150px;
+margin: 10px auto;
+}
+.basket{
+background-color: rgb(39, 190, 190);
+border-radius: 15px;
+color: white;
+width: 100px;
+text-align: center;
+cursor: pointer;
+}
+.home{
+color:white;
+}
