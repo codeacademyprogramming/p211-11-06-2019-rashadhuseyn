@@ -12,23 +12,27 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-dark bg-dark py-4">
 <a href="index.html" class="home">HOME</a>
+<i title="Make a payment" class="fas fa-cash-register accept"></i>
+<a href=""><i title="Delete selected" class="fas fa-trash-alt accept delete"></i></a> 
 <div class="basket">
     <a href="basket.html" class="home">
-    <i class="fas fa-shopping-basket"></i> <span class="counter"> 0 </span> 
+      <i class="fas fa-shopping-cart mr-2"></i><span class="counter"> 0 </span> 
     </a>
 
 </div>
 </nav>
 
-<section>
+<section class="mt-2">
     <table class="table table-dark">
         <thead>
           <tr>
+            <th scope="col">#</th>
             <th scope="col">Product name</th>
             <th scope="col">Product price</th>
             <th scope="col">Product ID</th>
+            <th scope="col">Pro-photo</th>
           </tr>
         </thead>
         <tbody id="body">
